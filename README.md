@@ -1,6 +1,7 @@
 📚 PeakPath – AI-Powered Study Planner & Productivity Dashboard
 
 PeakPath is a full-stack AI-driven study planner built with Flask, SQLite, JavaScript and FullCalendar, packed with productivity features like:
+
    ✅ Smart Task Scheduling – Automatically organizes your tasks based on deadlines, priorities, and workload for optimal study flow.
    
    📅 Real-Time Calendar Syncing – Seamlessly reflects your schedule changes using FullCalendar with instant visual updates.
