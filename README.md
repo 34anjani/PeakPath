@@ -1,4 +1,4 @@
-📚 PeakPath – AI-Powered Study Planner & Productivity Dashboard
+📚 PeakPath – AI Powered Study Planner & Productivity Dashboard
 
 PeakPath is a full-stack AI-driven study planner built with Flask, SQLite, JavaScript and FullCalendar, packed with productivity features like:
 
@@ -34,7 +34,7 @@ PeakPath is a full-stack AI-driven study planner built with Flask, SQLite, JavaS
 
 📈 Potential Use Cases
 
-      🎓 Students preparing for competitive exams (UPSC, GATE, GRE)
+      🎓 Students preparing for competitive exams (UPSC, GATE, GRE, Cracking Placements)
       
       🧑‍💻 Developers managing learning and project timelines
       
