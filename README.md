@@ -62,6 +62,7 @@ PeakPath is a full-stack AI-driven study planner built with Flask, SQLite, JavaS
      ```
 # 🧠 AI StudyBot Setup
   The StudyBot uses Groq API + LLaMA-3 by default. You can customize the model in `app.py`:
-  ```python
+   ```python
   "model": "meta-llama/llama-4-scout-17b-16e-instruct"
+
   ```
