@@ -2,14 +2,14 @@
  
 ## 📌 Overview
 
-**PeakPath** is a full-stack AI-driven study planner built with Flask, SQLite, JavaScript and FullCalendar, packed with productivity.
+**PeakPath** is a full-stack AI powered study planner and productivity dashboard built with Flask and SQLite that helps students organize their academic workflow. Users can create and track tasks with attributes like deadlines, difficulty levels and completion status all displayed on an interactive FullCalendar with real-time visual syncing. The app includes an integrated StudyBot powered by LLaMA via Groq API that answers study related questions and generates summaries. A Key Points journaling system allows users to log important notes and concepts during study sessions for future revision. The built-in Pomodoro timer helps maintain focused work intervals and a CSV export feature enables offline task analysis. This web app also features secure user authentication with password hashing along with a theme aware UI supporting light and dark modes and progress analytics to track productivity trends over time.
 
 ---
 
-# 🔑 Key Features
-- **✅ Smart Task Scheduling** – Automatically organizes your tasks based on deadlines, priorities, and workload for optimal study flow.
-- **📅 Real-Time Calendar Syncing** – Seamlessly reflects your schedule changes using FullCalendar with instant visual updates.
-- **🔔 Progress Analytics** – Tracks your task completion and study habits to provide insights into your productivity trends.
+## 🔑 Key Features
+- **✅ Smart Task Scheduling** – Organizes tasks based on deadlines, priorities, and workload for optimal study flow.
+- **📅 Real-Time Calendar Syncing** – Seamlessly reflects schedule changes using FullCalendar with instant visual updates.
+- **🔔 Progress Analytics** – Tracks task completion and study habits to provide insights into productivity trends.
 - **⏱️ Pomodoro Timer** – Integrated focus timer using the Pomodoro technique to boost concentration and manage breaks effectively.
 - **🤖 StudyBot (powered by LLaMA/Groq)** – An AI assistant that helps answer study-related questions and generates summaries or suggestions.
 - **🧠 Key Points Journaling** – Allows you to log important notes, concepts, or reflections while studying for future revision.
@@ -17,7 +17,7 @@
 
 ---
  
-# 🛠️ Tech Stack
+## 🛠️ Tech Stack
 - **Frontend:**
   - HTML, CSS, JavaScript  
   - Custom JS for interactive UI and Pomodoro functionality
@@ -28,7 +28,7 @@
 
 ---
 
-# 📈 Potential Use Cases
+## 📈 Potential Use Cases
 - 🎓 Students preparing for competitive exams (UPSC, GATE, GRE, Cracking Placements)
 - 🧑‍💻 Developers managing learning and project timelines     
 - 📖 Researchers or readers tracking literature study
@@ -36,7 +36,7 @@
 
 ---
 
-# 🚀 How to Run
+## 🚀 How to Run
   
   1. Clone the repository
      ```bash
@@ -71,7 +71,7 @@
 
  ---
      
-# 🧠 AI StudyBot Setup
+## 🧠 AI StudyBot Setup
   The StudyBot uses Groq API + LLaMA-3 by default. You can customize the model in `app.py`:
    ```python
   "model": "meta-llama/llama-4-scout-17b-16e-instruct"
