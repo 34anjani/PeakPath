@@ -1,6 +1,8 @@
 # 📚 PeakPath – AI Powered Study Planner & Productivity Dashboard
+ 
+---
 
-PeakPath is a full-stack AI-driven study planner built with Flask, SQLite, JavaScript and FullCalendar, packed with productivity features like:
+**PeakPath** is a full-stack AI-driven study planner built with Flask, SQLite, JavaScript and FullCalendar, packed with productivity features like:
 - **✅ Smart Task Scheduling** – Automatically organizes your tasks based on deadlines, priorities, and workload for optimal study flow.
 - **📅 Real-Time Calendar Syncing** – Seamlessly reflects your schedule changes using FullCalendar with instant visual updates.
 - **🔔 Progress Analytics** – Tracks your task completion and study habits to provide insights into your productivity trends.
@@ -9,7 +11,8 @@ PeakPath is a full-stack AI-driven study planner built with Flask, SQLite, JavaS
 - **🧠 Key Points Journaling** – Allows you to log important notes, concepts, or reflections while studying for future revision.
 - **🎯 Theme-Aware UI** – Adapts the interface to light or dark themes for better usability and visual comfort across devices.
 
-
+---
+ 
 # 🛠️ Tech Stack
 - **Frontend:**
   - HTML, CSS, JavaScript  
@@ -19,12 +22,15 @@ PeakPath is a full-stack AI-driven study planner built with Flask, SQLite, JavaS
   - SQLite – lightweight, local database for task storage and journaling
   - LLaMA/Groq API – powering the AI assistant (StudyBot)
 
+---
+
 # 📈 Potential Use Cases
 - 🎓 Students preparing for competitive exams (UPSC, GATE, GRE, Cracking Placements)
 - 🧑‍💻 Developers managing learning and project timelines     
 - 📖 Researchers or readers tracking literature study
 - 🧘 Productivity-minded individuals organizing daily goals
 
+---
 
 # 🚀 How to Run
   
@@ -57,9 +63,10 @@ PeakPath is a full-stack AI-driven study planner built with Flask, SQLite, JavaS
      ```
   
   6. Open in browser
-     ```bash
-     http://127.0.0.1:5000
-     ```
+     - http://127.0.0.1:5000
+
+ ---
+     
 # 🧠 AI StudyBot Setup
   The StudyBot uses Groq API + LLaMA-3 by default. You can customize the model in `app.py`:
    ```python
