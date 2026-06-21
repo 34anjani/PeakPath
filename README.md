@@ -44,15 +44,15 @@ PeakPath is a full-stack AI-driven study planner built with Flask, SQLite, JavaS
       - http://127.0.0.1:5000
 
 
-## 🚀 How to Run
+# 🚀 How to Run
   
-  1. **Clone the repository**
+  1. Clone the repository
      ```bash
      git clone https://github.com/34anjani/PeakPath.git
      cd PeakPath
   
   2. Create a virtual environment
-  
+     ```bash
      python -m venv venv
      venv\Scripts\activate
   
