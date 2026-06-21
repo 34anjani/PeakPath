@@ -25,35 +25,21 @@ PeakPath is a full-stack AI-driven study planner built with Flask, SQLite, JavaS
 - 📖 Researchers or readers tracking literature study
 - 🧘 Productivity-minded individuals organizing daily goals
 
-  ## 🚀 How to Run
+# 🚀 How to Run
   
-  **1. Clone the repository**
-  ```bash
-  git clone https://github.com/34anjani/PeakPath.git
-  cd PeakPath
-  
+  1. Clone the repository
+    - git clone https://github.com/34anjani/PeakPath.git
+    - cd PeakPath
   2. Create a virtual environment
-  
-  python -m venv venv
-  source venv/bin/activate        # On Mac/Linux
-  venv\Scripts\activate           # On Windows
-  
+    - python -m venv venv
+    - venv\Scripts\activate
   3. Install dependencies
-  
-  pip install -r requirements.txt
-  
+    - pip install -r requirements.txt
   4. Set up the Groq API key
-  
-  export GROQ_API_KEY=your_api_key_here        # On Mac/Linux
-  set GROQ_API_KEY=your_api_key_here           # On Windows
-  
-  │ Get your free API key from Groq Console (https://console.groq.com/)
-  
+    - set GROQ_API_KEY=your_api_key_here
+    - Get your free API key from Groq Console (https://console.groq.com/)
   5. Run the application
-  
-  python app.py
-  
+    - python app.py
   6. Open in browser
-  
-  http://127.0.0.1:5000
+    - http://127.0.0.1:5000
       
